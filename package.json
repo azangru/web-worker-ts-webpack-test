@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "start": "webpack serve",
+    "build:dev": "webpack build --mode development",
+    "build:prod": "webpack build --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
